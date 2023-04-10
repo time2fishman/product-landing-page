@@ -235,3 +235,33 @@ footer span {
   color: #444;
   margin-top: 5px;
 }
+
+/* ----- MEDIA QUERIES ----- */
+
+@media screen and (max-width: 650px) {
+  #header {
+    padding: unset;
+    display: unset;
+    justify-content: unset;
+    align-items: unset;
+  }
+
+  #logo {
+    width: unset;
+    text-align: center;
+  }
+
+  #header-img {
+    width: 300px;
+    margin: 12px 0;
+  }
+
+  #nav-bar ul {
+    width: 100vw;
+    margin-bottom: 12px;
+  }
+
+  #hero {
+    margin-top: 70px;
+  }
+}
